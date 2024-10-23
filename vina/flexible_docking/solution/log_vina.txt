@@ -1,0 +1,29 @@
+Scoring function : vina
+Rigid receptor: 1fpu_receptor_rigid.pdbqt
+Flex receptor: 1fpu_receptor_flex.pdbqt
+Ligand: 1iep_ligand.pdbqt
+Grid center: X 15.19 Y 53.903 Z 16.917
+Grid size  : X 20 Y 20 Z 20
+Grid space : 0.375
+Exhaustiveness: 32
+CPU: 0
+Verbosity: 1
+
+Computing Vina grid ... done.
+Performing docking (random seed: 613634878) ...
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -11.67          0          0
+   2       -11.07      1.233       1.57
+   3       -10.72      3.221      12.11
+   4        -10.6      4.015      11.95
+   5          -10      3.931      11.86
+   6       -9.977      2.544      12.27
+   7       -9.503      3.196      11.98
+   8       -9.441      2.071       12.9
+   9       -9.077       2.17      12.36
